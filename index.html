@@ -296,14 +296,14 @@
 
       #arrow {
         transform-box: fill-box;
-        transform: rotate(4deg);
-        transform-origin: bottom right;
-        animation: arrowRun 3s ease-in-out 0.5s infinite alternate;
+        transform: rotate(2deg);
+        transform-origin: center right;
+        animation: arrowRun 3s ease-in-out 0.25s infinite alternate;
       }
 
       @keyframes arrowRun {
         0% {
-          transform: rotate(4deg);
+          transform: rotate(2deg);
         }
 
         30%,
@@ -316,7 +316,7 @@
         transform-box: fill-box;
         transform-origin: center right;
         transform: translateX(45px);
-        animation: arrowShadow 3s ease-in-out 0.5s infinite alternate;
+        animation: arrowShadow 3s ease-in-out 0.25s infinite alternate;
       }
 
       @keyframes arrowShadow {
